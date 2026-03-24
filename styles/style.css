@@ -321,14 +321,14 @@ p{
     padding: 10px;
 } */
 
-@media (max-width: 900px){
+/* @media (max-width: 900px){
     .introducao__apresentacao{
         flex-direction: column;
     }
 
-}
+} */
 
-@media (max-width: 1600px){
+/* @media (max-width: 1600px){
     .contato__conteudo{
         padding: 5%;
     }
@@ -345,5 +345,18 @@ p{
      .contato__conteudo__botoes{
         justify-content: center;
     } 
-}
+} */
 
+@media(max-width: 450px){
+    .introducao__apresentacao{
+        flex-direction: column;
+    }
+
+    .introducao__imagem{
+        width: 25vh;
+    }
+
+    .introducao__texto{
+        /* flex-direction: row; */
+    }
+}
