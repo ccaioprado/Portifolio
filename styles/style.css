@@ -347,7 +347,9 @@ p{
     } 
 } */
 
-@media(max-width: 450px){
+@media(min-width: 450px) and (max-width: 1200px){
+
+    /* -------------- INDEX ------------ */
 
     .introducao__apresentacao{
         flex-direction: column;
@@ -377,5 +379,32 @@ p{
 
     .rodape__texto{
         font-size: 1.5rem;
+    }
+
+ /* -------------- PAGINA SOBRE ------------ */
+  .sobre__conteudo__texto{
+    padding: 60px 16px;
+  }
+
+  .sobre__conteudo__texto p{
+        line-height: 1.7;
+        font-size: 1rem;
+    }
+
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+
+    .sobre__rodape__texto{
+        font-size: 1.5rem;
+    }
+
+    .sobre__conteudo__texto{
+        flex-direction: column;
+    }
+
+    .sobre__imagem{
+        width: 25vh;
+        margin-bottom: 40px;
     }
 }
